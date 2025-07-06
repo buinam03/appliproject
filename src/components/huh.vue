@@ -35,8 +35,19 @@ export default {
             // pathImg: require(''),
         }
     },
+<<<<<<< HEAD
     mounted() {
         document.title = 'Ê em ơi';
+=======
+    mounted(){
+        document.title = 'Nhìn qq';
+    },
+methods: {
+    huhuhuhuhuhu(){
+        this.huh = true;
+        
+        this.createRandomPopup();
+>>>>>>> 8e27b6d980b5161c046d34dc0eca27856ebc3d92
     },
     methods: {
         cancelRandom() {
@@ -191,6 +202,7 @@ form {
     }
 }
 
+<<<<<<< HEAD
 .btn-cancel {
     padding: 30px 80px;
     font-size: 16px;
@@ -225,3 +237,6 @@ form {
     height: 100%;
 }
 </style>
+=======
+</style>
+>>>>>>> 8e27b6d980b5161c046d34dc0eca27856ebc3d92
