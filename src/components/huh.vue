@@ -35,19 +35,8 @@ export default {
             // pathImg: require(''),
         }
     },
-<<<<<<< HEAD
     mounted() {
         document.title = 'Ê em ơi';
-=======
-    mounted(){
-        document.title = 'Nhìn qq';
-    },
-methods: {
-    huhuhuhuhuhu(){
-        this.huh = true;
-        
-        this.createRandomPopup();
->>>>>>> 8e27b6d980b5161c046d34dc0eca27856ebc3d92
     },
     methods: {
         cancelRandom() {
@@ -75,7 +64,7 @@ methods: {
         },
         huhuhuhuhuhu() {
             this.huh = true;
-            this.acceptButton = true; 
+            this.acceptButton = true;
             this.createRandomPopup();
         },
         createRandomPopup() {
@@ -94,10 +83,8 @@ methods: {
             const x = Math.random() * (window.innerWidth - 300); // Trừ đi kích thước của background để tránh vượt ra ngoài màn hình
             const y = Math.random() * (window.innerHeight - 300); // Tương tự như trên 
 
-
             popup.style.left = `${x}px`;
             popup.style.top = `${y}px`;
-
 
             // Hiển thị phần tử
             setTimeout(() => {
@@ -202,7 +189,6 @@ form {
     }
 }
 
-<<<<<<< HEAD
 .btn-cancel {
     padding: 30px 80px;
     font-size: 16px;
@@ -237,6 +223,3 @@ form {
     height: 100%;
 }
 </style>
-=======
-</style>
->>>>>>> 8e27b6d980b5161c046d34dc0eca27856ebc3d92
